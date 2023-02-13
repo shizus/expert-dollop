@@ -84,3 +84,13 @@ python manage.py loaddata products_data.json
 
 When the project is running an automatic documentation is available in: 
 http://127.0.0.1:8000/redoc/
+
+# SECRET_KEY
+
+The project has a default `SECRET_KEY`. Make sure to set it up for a production
+environment
+
+# ALLOWED_HOSTS
+
+The project has a default `ALLOWED_HOSTS`. Make sure to set it up for a production
+environment
