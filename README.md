@@ -13,6 +13,11 @@ virtualenv venv -p /location/to/python3
 pip install -r requirements.txt
 ```
 
+# Running migrations
+```shell script
+python manage.py migrate
+```
+
 # Running dev environment
 
 ```
